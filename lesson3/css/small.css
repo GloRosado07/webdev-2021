@@ -54,7 +54,6 @@ text-align: center;
 main {
   max-width: 375px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
   text-align: left;
   margin: 0 auto;
   max-width: 600px;
@@ -100,7 +99,95 @@ footer {
   color: #074f57
 }
 
+/* CSS target audience */
+.main_information{
+  grid-template-columns: 1fr;
+}
 
+.audience{
+  font-size: 40px;
+  background-color:#81AFD9;
+}
 
+.target_audience{
+  font-size: 25px;
+  font-size: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+.personas{
+  font-size: 40px;
+  background-color:#81AFD9;
+}
+.scenario{
+  font-size: 40px;
+  background-color:#81AFD9;
+  padding: 1.5px;
+}
+
+.name_one{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.name_two{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.information_one{
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.information_two{
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.questions{
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1.5%;
+}
+
+/*color css*/
+.colors h2{
+  text-align: center;
+}
+
+.colors ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+.colors ul li:nth-child(1){
+  background-color:#001011;
+  color: white;
+  padding: 1rem;
+} 
+
+.colors ul li:nth-child(2){
+  background-color: #093A3E;
+  color: white;
+  padding: 1rem;
+}
+
+.colors ul li:nth-child(3){
+  background-color: #97c8eb;
+  color: black;
+  padding: 1rem;
+}
+
+.colors ul li:nth-child(4){
+  background-color: #3AAFB9;
+  color: black;
+  padding: 1rem;
+}
+
+.colors ul li:nth-child(5){
+  background-color: #64e9ee;
+  color: black;
+  padding: 1rem;
+}
 
