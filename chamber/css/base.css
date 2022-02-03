@@ -79,11 +79,11 @@ a:hover{
 }
   
 nav ul {
-    display: flex;
-    list-style: none; /*removes bullets! */
-    text-align: justify;
-    max-width: 340px; 
-    font-family: fantasy;}
+  display: flex;
+  list-style: none; /*removes bullets! */
+  text-align: justify;
+  max-width: 340px; 
+  font-family: fantasy;}
 
 .h2{
   text-align: left;
